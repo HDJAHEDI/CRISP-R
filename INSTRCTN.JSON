@@ -1,0 +1,88 @@
+{
+  "TASK": [
+    {
+      "INP_ADDRS": "Z01878.SOURCE(ADD1JCL)"
+    , "OUT_ADDRS": "Z01878.PROJECT.DATA()"
+    , "PARM": [
+        {
+          "OLD_STR": "ADD1JCL"
+        , "NEW_STR": "NEW#JCL"
+        }
+    ,   {
+          "OLD_STR": "COMPILE"
+        , "NEW_STR": "CMP    "
+        }
+      ]
+    , "MEMBER": [
+        {
+          "NAME": "ADD2CBL"
+        , "PARM": [
+            {
+              "OLD_STRNG": "ADD1CBL"
+            , "NEW_STRNG": "ADD2CBL"
+            }
+          , {
+              "OLD_STRNG": "OUTLIM=15000"
+            , "NEW_STRNG": "OUTLIM=15002"
+            }
+          ]
+        }
+      , {
+          "NAME": "ADD3CBL"
+        , "PARM": [
+            {
+              "OLD_STRNG": "ADD1CBL"
+            , "NEW_STRNG": "ADD3CBL"
+            }
+          , {
+              "OLD_STRNG": "OUTLIM=15000"
+            , "NEW_STRNG": "OUTLIM=15003"
+            }
+          ]
+        }
+      ]
+    }
+  , {
+      "INP_ADDRS": "Z01878.SOURCE(ADD1JCL)"
+    , "OUT_ADDRS": "Z01878.PROJECT.DATA()"
+    , "PARM": [
+        {
+          "OLD_STR": "ADD1JCL"
+        , "NEW_STR": "NEW@JCL"
+        }
+      , {
+          "OLD_STR": "COMPILE"
+        , "NEW_STR": "CMP@@@@"
+        }
+      ]
+    , "MEMBER": [
+        {
+          "NAME": "AD@2CBL"
+        , "PARM": [
+            {
+              "OLD_STRNG": "ADD1CBL"
+            , "NEW_STRNG": "AD@2CBL"
+            }
+          , {
+              "OLD_STRNG": "OUTLIM=15000"
+            , "NEW_STRNG": "OUTLIM=15022"
+            }
+          ]
+        }
+      , {
+          "NAME": "AD@3CBL"
+        , "PARM": [
+            {
+              "OLD_STRNG": "ADD1CBL"
+            , "NEW_STRNG": "ADD3CBL"
+            }
+          , {
+              "OLD_STRNG": "OUTLIM=15000"
+            , "NEW_STRNG": "OUTLIM=15023"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
