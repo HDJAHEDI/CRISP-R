@@ -2,7 +2,7 @@
 ## Note: 
 The whole idea is entirely simple, but it is amazingly extendable.
 CRISPR is a genome-editing technology, so I choose the name CRISP#R for my idea because it is a tool that can copy and modify a huge amount of members from an existing template simultaneously in a z/OS environment.
-
+![alt text](https://github.com/HDJAHEDI/CRISP-R/blob/main/CRISP%23R.png?raw=true)
 ## Directions:
 CRISP#R is a Rexx program. It can be easily specified by a JSON file what it should do. 
 I wrote 2 external functions for this program. The first is REPLACE which gets 3 parameters, `INP_STR`, `OLD_STR`, and `NEW_STR`.
